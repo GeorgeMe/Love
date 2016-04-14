@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/action_feature_highest_rated"
+		android:icon="@drawable/ic_action_important"
+		android:orderInCategory="90"
+		android:title="@string/feature_highest_rated"
+		android:visible="true"
+		app:showAsAction="ifRoom" />
+
+	<item
+		android:id="@+id/action_feature_popular"
+		android:icon="@drawable/ic_action_group"
+		android:orderInCategory="80"
+		android:title="@string/feature_popular"
+		android:visible="true"
+		app:showAsAction="ifRoom" />
+
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Theme.BeautifulPhotos" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:actionBarStyle">@style/Theme.BeautifulPhotos.ActionbarStyle</item>
+		<item name="android:icon">@mipmap/ic_launcher</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:windowBackground">@color/grey_1000</item>
+		<item name="icon">@mipmap/ic_launcher</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="windowActionBar">true</item>
+
+	</style>
+
+
+	<style name="Theme.BeautifulPhotos.ActionbarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+		<item name="android:background">@color/blue_600</item>
+		<item name="android:windowActionBarOverlay">true</item>
+		<item name="android:titleTextStyle">@style/Theme.BeautifulPhotos.TitleTextStyleLight</item>
+		<item name="windowActionBarOverlay">true</item>
+
+	</style>
+
+	<style name="Theme.BeautifulPhotos.TitleTextStyleLight" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/actionbar_title_text_color_light</item>
+
+	</style>
+
+	<style name="PhotoCaption">
+		<item name="android:textColor">@color/grey_400</item>
+		<item name="android:textSize">16dp</item>
+		<item name="android:shadowColor">@color/grey_900</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:gravity">center_vertical</item>
+
+	</style>
+
+	<style name="PhotoCaption.Italic" parent="@style/PhotoCaption">
+		<item name="android:textStyle">italic</item>
+	</style>
+
+	<style name="PhotoThumbnail">
+		<item name="android:layout_margin">2dp</item>
+		<item name="android:padding">2dp</item>
+		<item name="android:scaleType">centerCrop</item>
+		<item name="android:adjustViewBounds">true</item>
+	</style>
+
+	<style name="EmptyTextMessage">
+		<item name="android:textSize">30dp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:textColor">@color/cyan_500</item>
+		<item name="android:gravity">center_horizontal|center_vertical</item>
+	</style>
+
+</resources>
